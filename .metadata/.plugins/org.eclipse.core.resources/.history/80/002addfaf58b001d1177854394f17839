@@ -1,0 +1,12 @@
+package Inheritance;
+
+public class Simple {
+	
+}
+public class one extends Simple{
+
+	public static void main(String[] args) {
+		
+	}
+}
+

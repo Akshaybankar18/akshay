@@ -1,0 +1,10 @@
+package Inheritance;
+
+public class Simple {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

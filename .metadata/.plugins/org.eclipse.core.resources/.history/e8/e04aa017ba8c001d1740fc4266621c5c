@@ -1,0 +1,18 @@
+package first;
+
+public class aaa {
+	void methodCount() {
+		string input = "kcHHCnjncjshfn$%^&&***129875";
+		int uppercase=0;
+		
+				
+			}
+		}
+
+	}
+
+	public static void main(String[] args) {
+		aaa obj = new aaa();
+		obj.methodCount();
+	}
+}

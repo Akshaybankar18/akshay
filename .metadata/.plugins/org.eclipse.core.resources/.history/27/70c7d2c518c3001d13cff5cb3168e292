@@ -1,0 +1,19 @@
+package com.BaseLayer;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BaseClass {
+
+	public static WebDriver driver;
+
+	public void setup() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\chrome_win32.exe");
+		driver = new ChromeDriver();
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"); 
+  
+}private void closeBrowser() { driver.quit();
+		// TODO Auto-generated method stub
+		
+	}
+}

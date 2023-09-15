@@ -1,0 +1,24 @@
+package com.demo;
+
+public class Test {
+	public static void main(String[] args) {
+		char Addition = '+';
+		switch (Addition) {
+		case '+':
+			System.out.println("Addition");
+
+		case '-':
+			System.out.println("Subtraction");
+
+		case '*':
+			System.out.println("multiplication");
+
+		case '/':
+			System.out.println("Division");
+
+		default:
+			System.out.println("default");
+		}
+
+	}
+}

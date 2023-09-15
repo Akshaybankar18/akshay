@@ -1,0 +1,31 @@
+import java.util.Iterator;
+
+public class Count {
+public static void main(String[] args) {
+	{
+		String input = "AMNCXNSJnjcduiwjj0182988%&&*&^%%$@" ;
+		int upperCase =0 ;
+		int lowerCase =0;
+		int Number =0;
+		 char [] ch = input.toCharArray();
+		 for (char cr:ch) {
+			 if (cr >='A' && cr <='Z') {
+				 upperCase++; 
+		 }
+			 else if (cr >='a' && cr <='z'); {
+				 lowerCase++; }
+				
+				 {
+					Number++; }
+				 
+	System.out.println(upperCase);
+	System.out.println(lowerCase);
+	System.out.println(Number);
+				
+			}
+			
+		
+		
+	}
+
+

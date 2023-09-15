@@ -1,0 +1,18 @@
+package Inheritance;
+
+public class Simple {
+	void methodOne() {
+		System.out.println("Parent");
+	}
+}
+
+class one extends Simple {
+	void methodTwo() {
+		System.out.println("Child");
+	}
+
+	public static void main(String[] args) {
+		one obj=new one();
+		obj.
+	}
+}

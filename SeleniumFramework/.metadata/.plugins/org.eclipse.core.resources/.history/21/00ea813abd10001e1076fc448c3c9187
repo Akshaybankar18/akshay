@@ -1,0 +1,20 @@
+package Shopping;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class ajio {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		ChromeOptions options= new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        
+		WebDriver driver = new ChromeDriver(options);
+		driver.get("https://www.ajio.com/?gclid=EAIaIQobChMIwrXy-I_W_wIVNpFmAh0PtAs3EAAYASAAEgIi4fD_BwE");
+		driver.manage().window().maximize();
+	}
+
+}

@@ -1,0 +1,18 @@
+import org.openqa.selenium.WebDriver;
+
+public class GoogleTitleTest {
+
+	public GoogleTitleTest() {
+		// TODO Auto-generated constructor stub
+		WebDriver driver;
+		
+	public void tsetGoogleTitle()	{
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

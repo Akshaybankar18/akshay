@@ -1,0 +1,23 @@
+package com.demo;
+
+
+public class Test
+{ 
+	int a=8;
+	int b=9;
+	int c=10;
+	int d=11;
+	int e=[(a+b+c+d)/4];
+	
+
+ 
+
+public static void main(String[] args) 
+{ 
+	System.out.println("Average of 4 numbers is"+" "+ e);
+	
+}
+}
+
+
+	

@@ -1,0 +1,33 @@
+package com.demo;
+
+public class Test {
+	public static void main(String[] args) {
+		char Addition = '+';
+		switch (Addition) {
+		case '+':
+			System.out.println("Addition");
+
+		case '-':
+			System.out.println("Subtraction");
+
+		case '*':
+			System.out.println("multiplication");
+
+		case '/':
+			System.out.println("Division");
+
+		default:
+			System.out.println("default");
+		}
+
+	}
+}
+public class Variables
+{ 
+	static int a=15;
+	double b=a;
+	
+	public static void main(String[] args) {
+		System.out.println("Before casting"+" "+a");
+	System.out.println("After casting"+" "+b");}
+	}

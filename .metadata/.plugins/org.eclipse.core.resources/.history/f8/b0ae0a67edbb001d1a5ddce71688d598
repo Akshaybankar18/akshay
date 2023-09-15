@@ -1,0 +1,17 @@
+package Learning;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class HandleWebElement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+    System.setProperty("Webelement.chrome.driver", "C:\\Users\\User\\Downloads\\chromedriver_win32.exe");
+    
+    WebDriver driver = new ChromeDriver();
+    
+    driver.get("https://www.w3schools.com/html/html_tables.asp");
+	}
+
+}

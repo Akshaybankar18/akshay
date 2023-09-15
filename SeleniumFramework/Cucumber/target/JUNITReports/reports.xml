@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="59.743" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="feature to test google search functionallity" name="validate google search is working" time="59.408">
+<system-out><![CDATA[
+Given browser is open.......................................................passed
+And user is on google search page...........................................passed
+When user enters a text in box..............................................passed
+And hits enter..............................................................passed
+Then user is navigated to search results....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login functionality" name="Check login is succesfull with valid credentials" time="0.017">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When user enters username and password......................................passed
+And clicks on login button..................................................passed
+Then user is navigated to the homepage......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

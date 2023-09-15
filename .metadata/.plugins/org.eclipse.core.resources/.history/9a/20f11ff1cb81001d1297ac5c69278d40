@@ -1,0 +1,21 @@
+package com.demo;
+
+
+public class Test
+{ 
+	static float a=10;
+	static float b=9;
+	static float c=11;
+	static float d=12;
+	static float e=((a+b+c+d)/4);
+	
+
+public static void main(String[] args) 
+{ 
+	System.out.println("Average of 4 numbers is"+" "+ e);
+	
+}
+}
+
+
+	
